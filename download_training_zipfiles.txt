@@ -1,0 +1,16 @@
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/depth_left.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/depth_right.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/flow_flow.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/flow_mask.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/image_left.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/image_right.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/seg_left.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Easy/seg_right.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/depth_left.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/depth_right.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/flow_flow.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/flow_mask.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/image_left.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/image_right.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/seg_left.zip
+https://tartanair.blob.core.windows.net/tartanair-release1/soulcity/Hard/seg_right.zip
