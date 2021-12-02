@@ -1,5 +1,7 @@
 outputs/
 src/models/
+models
+images
 data/
 logs/
 .idea/

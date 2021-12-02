@@ -97,7 +97,7 @@ def get_data_loader_folder(input_folder, batch_size, train, new_size=None,
 
 def get_config(config):
     with open(config, 'r') as stream:
-        return yaml.load(stream)
+        return yaml.full_load(stream)
 
 
 def eformat(f, prec):
@@ -223,7 +223,7 @@ def load_vgg16(model_dir):
     if not os.path.exists(os.path.join(model_dir, 'vgg16.weight')):
         if not os.path.exists(os.path.join(model_dir, 'vgg16.t7')):
             os.system('wget https://www.dropbox.com/s/76l3rt4kyi3s8x7/vgg16.t7?dl=1 -O ' + os.path.join(model_dir, 'vgg16.t7'))
-        vgglua = load_lua(os.path.join(model_dir, 'vgg16.t7'))
+        vgglua = load_lua(os.path.join(model_dir, 'vgg16.t7'),long_size=8)
         vgg = Vgg16()
         for (src, dst) in zip(vgglua.parameters()[0], vgg.parameters()):
             dst.data[:] = src
